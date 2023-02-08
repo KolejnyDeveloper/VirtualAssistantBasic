@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nakladka2Test", "Nakladka2Test\Nakladka2Test.csproj", "{E78CB7C8-9ECC-4F57-92D9-DE9557FACFE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E78CB7C8-9ECC-4F57-92D9-DE9557FACFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78CB7C8-9ECC-4F57-92D9-DE9557FACFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78CB7C8-9ECC-4F57-92D9-DE9557FACFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78CB7C8-9ECC-4F57-92D9-DE9557FACFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69B8A805-A766-4BAD-810F-0DC18C133E93}
+	EndGlobalSection
+EndGlobal

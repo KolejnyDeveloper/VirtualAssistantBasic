@@ -1,0 +1,29 @@
+﻿<Window PreviewLostKeyboardFocus="okno_PreviewLostKeyboardFocus"
+        
+        x:Class="Nakladka2Test.MainWindow" x:Name="okno"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:local="clr-namespace:Nakladka2Test"
+        mc:Ignorable="d"
+        Title="Nakladka" Height="250" Width="250" WindowStyle="None" ShowInTaskbar="False"
+        Opacity="0.95" Background="{x:Null}" AllowsTransparency="True" 
+        MouseDown="Window_MouseDown" MouseMove="Window_MouseMove" MouseUp="Window_MouseUp"
+        PreviewKeyDown="Window_PreviewKeyDown" Closing="okno_Closing" 
+        Deactivated="Window_Deactivated" Activated="Window_Activated">
+    <Window.Resources>
+        <Storyboard x:Key="Znikanie" Completed="Storyboard_Completed">
+            <DoubleAnimation Storyboard.TargetName="okno" Storyboard.TargetProperty="Opacity" 
+                             Duration="0:0:1" To="0.0"
+                             RepeatBehavior="1x" AutoReverse="False" />
+        </Storyboard>
+    </Window.Resources>
+    <Grid>
+
+        <Image gif:ImageBehavior.RepeatBehavior="0x"
+               gif:ImageBehavior.AnimatedSource="b.gif" />
+            
+    </Grid>
+</Window>
